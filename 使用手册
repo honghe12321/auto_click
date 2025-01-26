@@ -15,3 +15,8 @@
 (get_xy,var)
 //回到鼠标位置，回到哪个变量
 (set_xy,var)
+//判断剪切板是否有String
+(if,clipboard,has,String)
+//有执行下面的代码，没有执行end后面的代码
+(paste,2)
+(end)
